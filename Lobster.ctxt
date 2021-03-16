@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Lobster
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Lobster\ here.\r\n\ \r\n\ @author\ Greyson\ Johns\r\n\ @version\ 3/16\ Version\ 1\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ move()
+comment3.params=
+comment3.target=void\ lookForCrab()
+comment3.text=\r\n\ If\ crab\ finds\ crab,\ then\ eat\ it.\r\n
+comment4.params=
+comment4.target=void\ randomTurn()
+comment4.text=\r\n\ Make\ the\ lobster\ randomly\ turn\ left\ or\ right.\r\n\ Between\ 0\ and\ 45\ degrees.\r\n
+comment5.params=
+comment5.target=void\ turnAtEdge()
+comment5.text=\r\n\ Has\ the\ lobster\ turn\ at\ the\ world\ edge.\r\n
+numComments=6
