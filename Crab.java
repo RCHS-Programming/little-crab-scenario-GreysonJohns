@@ -7,8 +7,7 @@ public class Crab extends Actor
 {
     public void act()
     {
-        turnAtEdge();
-        randomTurn();
+        checkKeyPress();
         move();
         lookForWorm();
     }
@@ -26,30 +25,24 @@ public class Crab extends Actor
         if(isTouching(Worm.class))
         {
             removeTouching(Worm.class);
+            Greenfoot.playSound("slurp.wav");
         }
     }
     
     /*
-     * Make the crab randomly turn left or right.
-     * Between 0 and 45 degrees.
+     * Check if a key is pressed, if so turn a crab.
      */
-    public void randomTurn()
-    {   
-        if(Greenfoot.getRandomNumber(100) < 10)
+    public void checkKeyPress()
+    {
+                if(Greenfoot.isKeyDown("A"))
         {
-            turn(Greenfoot.getRandomNumber(91)-45 );
+            turn(-5);
         }
-    }
-    
-    /*
-     * Has the crab turn at the world edge.
-     */
-    public void turnAtEdge()
-    {
-    if(isAtEdge() )
-    {
-        turn(17);
-    }
+        
+                if(Greenfoot.isKeyDown("D"))
+        {
+            turn(5);
+        }
     }
 }
 
