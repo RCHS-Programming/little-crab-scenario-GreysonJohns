@@ -46,6 +46,8 @@ public class Crab extends Actor
             
             wormsEaten++;
             
+            getWorld().showText ("Score:" + wormsEaten, 50, 500);
+            
             if(wormsEaten == 20)
             {
                 Greenfoot.playSound("fanfare.wav");  
