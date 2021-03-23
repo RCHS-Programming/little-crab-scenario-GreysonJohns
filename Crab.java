@@ -8,6 +8,7 @@ public class Crab extends Actor
     private GreenfootImage image1;
     private GreenfootImage image2;
     
+    private int wormsEaten;
     /*
      * Create a Crab and initialize the animation images.
      */
@@ -16,6 +17,8 @@ public class Crab extends Actor
         image1 = new GreenfootImage("crab.png");
         image2 = new GreenfootImage("crab2.png");
         setImage (image1);
+        
+        wormsEaten = 0;
     }
     
     public void act()
@@ -23,6 +26,7 @@ public class Crab extends Actor
         checkKeyPress();
         move();
         lookForWorm();
+        switchImage();
     }
      
     public void move( )
@@ -39,6 +43,14 @@ public class Crab extends Actor
         {
             removeTouching(Worm.class);
             Greenfoot.playSound("slurp.wav");
+            
+            wormsEaten++;
+            
+            if(wormsEaten == 20)
+            {
+                Greenfoot.playSound("fanfare.wav");  
+                Greenfoot.stop();
+            }
         }
     }
     
@@ -55,6 +67,21 @@ public class Crab extends Actor
                 if(Greenfoot.isKeyDown("D"))
         {
             turn(5);
+        }
+    }
+    
+    /*
+     * Animates crab. Switches images.
+     */
+    public void switchImage()
+    {
+                        if(getImage() == image1)
+        {
+            setImage(image2);
+        }
+        else
+        {
+            setImage(image1);
         }
     }
 }

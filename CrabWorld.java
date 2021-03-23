@@ -8,7 +8,7 @@ public class CrabWorld extends World
      */
     public CrabWorld() 
     {
-        super(750, 750, 1);
+        super(700, 700, 1);
         addObject(new Crab(), 325, 325);
         
         addObject(new Lobster(), 450, 100);
@@ -16,25 +16,25 @@ public class CrabWorld extends World
         addObject(new Lobster(), 450, 500);
         addObject(new Lobster(), 450, 700);
         
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
-        addObject (new Worm(), Greenfoot.getRandomNumber(750), Greenfoot.getRandomNumber(750));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
+        addObject (new Worm(), Greenfoot.getRandomNumber(700), Greenfoot.getRandomNumber(700));
 }
 }
