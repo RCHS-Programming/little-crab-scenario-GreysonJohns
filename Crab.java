@@ -77,7 +77,7 @@ public class Crab extends Actor
      */
     public void switchImage()
     {
-                        if(getImage() == image1)
+        if(getImage() == image1)
         {
             setImage(image2);
         }
